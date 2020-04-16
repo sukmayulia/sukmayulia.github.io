@@ -1,1 +1,270 @@
+@charset "utf-8";
+/* reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	vertical-align: top;
+	font-size: 100%;
+}
 
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Hiragino Kaku Gothic ProN', Arial, Meiryo, sans-serif;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after{
+	display:table;
+	content:"";
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+/*start here*/
+#wraper{
+	width: auto;
+	margin: auto;
+}
+.header{
+	height: 670px;
+}
+.wrap_inner{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+/*box01*/
+.box01{	
+	 background-image: url(../images/banner.jpg);
+		background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.logo{
+	float: left;
+	margin-top: 30px;
+}
+.menu{
+	float: right;
+	width: 741px;
+	margin-top: 30px;
+}
+.menu li{
+	margin-right: 34px;
+	float: left;	
+}
+.menu li a{
+	text-decoration: none;
+	color: #191919;
+	font-weight: 700;
+}
+
+.menu li a:hover{
+	text-decoration: none;
+	color: #58d4d0;
+}
+.banner{
+	position: absolute;
+	top: 200px;
+    right: 200px;
+}
+.banner h1{
+	font-size: 38px;
+	color: #1d1d1d;
+	font-weight: bold;
+}
+.banner p{
+	color: #9e9e9e;
+	font-weight: 600;
+}
+.banner a{
+	margin-top: 43px;
+}
+.button{
+	background-color: #10c9c3;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+/*end box01*/
+
+/*box02*/
+.about{
+	height: 420px;
+}
+.box02{
+	margin: auto;
+	width: 700px;
+	height: 221px;
+	line-height: 30px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.box02 h2{
+	font-size: 38px;
+	margin-bottom: 40px;
+}
+.box02 p{
+	font-size: 18px;
+	color: #a2a2a2;
+}
+.box02 img{
+	margin-top: 30px;
+    margin-bottom: 40px;
+}
+/*end box02*/
+
+/*box03*/
+.box03{
+	height: 570px;
+	margin: auto;
+	width: auto;
+}
+.box03_left{
+	height: 570px;
+	margin: auto;
+	width: 50%;
+	float: left;
+	background-color: #f8f9f9;
+}
+.box03_left h2{
+	font-size: 30px;
+	margin-top: 160px;
+}
+.box03_right{
+	height: 570px;
+	margin: auto;
+	width: 50%;
+	float: left;
+	background-image: url(../images/skill.png);
+		background-repeat:no-repeat;
+	background-size: cover;
+}
+.progress{
+	margin-top: 10px;
+}
+.progressBar h3{
+	font-size: 12px;
+	font-family: Cambria, "Hoefler Text";
+	margin-bottom: 15px;
+}
+/*end box03*/
+/*box04*/
+.box04{
+	padding:100px;
+	background-color: #10c9c3;
+}
+.contentBox04{
+	display: flex;
+}
+.list_Box04{
+	width:25%;
+	display: flex;
+}
+.textBox04{
+	padding-left:25px;
+}
+.textBox04 h4{
+	font-size: 18px;
+	font-weight: 600;
+	color:white;
+	margin:0;
+}
+.textBox04 p{
+	font-size: 12px;
+	font-weight: normal;
+	color:white;
+	margin:0;
+}
+/*end box04*/
+.imageBox5{
+	width:25%;
+	float:left;
+	background: black;
+}
+.imageBox5 img{
+	width:100%;
+}
+.imageBox5:hover img{
+ 	animation-name: hover;
+ 	animation-duration: 1;
+	opacity: 0.5;
+}
+.load_more{
+	background-color: #f5f5f5;
+}
+.load_more p{
+	margin:0;
+}
+.load_more p a{
+	font-size: 12px;
+	font-weight: 600;
+	color:#8e8e8e;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	width:100%;
+	padding:44px 0;
+
+}
+
+.box06 h2,.box06 p{
+	text-align: center;
+}
+.box06{
+	position: relative;
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+.box06 h2 {
+	color: #1d1d1d;
+    font-size: 38px;
+    font-weight: 600;
+	line-height: 1.6;
+}
+.box06 p{
+	font-size: 18px;
+    font-weight: 600;
+    color: #a2a2a2;
+	line-height: 1.6;
+}
+.video_player{
+	padding-top: 60px;
+}
+.video_player img{
+	width:100%;
+	height: auto;
+}
+.video_player .play{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+}
