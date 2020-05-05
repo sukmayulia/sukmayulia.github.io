@@ -1,1 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	vertical-align: top;
+	font-size: 100%;
+}
 
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Hiragino Kaku Gothic ProN', Arial, Meiryo, sans-serif;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after{
+	display:table;
+	content:"";
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+/*start here*/
+.wrap{
+	width: 1900px;
+	margin: auto;
+}
+.wrap_inner{
+	width: 1170px;
+	margin: auto;
+}
+.banner{
+	background-image:url(../images/banner.png);
+	height: 750px;	
+}
+.header{
+	height: 100px;
+	padding-top: 37px
+}
+.logo{
+	float: left;
+}
+ul  {
+	width: 600px;
+	float: right;
+	padding-top: 4px;
+}
+ul li{
+	float: left;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	margin-right: 30px;
+	font-size: 13px;
+	font-family: "Raleway Bold";
+}
+.banner_text{
+	margin-top: 156px;
+	height: 214PX;
+	text-align: center;
+	color: white;
+}
+.banner_text h1{
+	font-size: 65px;
+}
+.banner_text p{
+	font-size: 22px;
+	font-family: "Myriad Pro Regular";
+}
+.button{
+	margin-top: 82px;
+	margin-left: 486px;
+	background-color: #e84545;
+  	border: none;
+  	color: white;
+  	padding: 17px 53px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;	
+}
+.features{
+	height: 693px;
+}
+.features ul{
+	width: 1170px;
+	padding-top: 120px;
+}
+.features li{
+	height: 190px;
+	width: 370px;
+	text-align: center;
+}
+.space_right{
+	margin-right: 30px;
+}
+.space_bottom{
+	margin-bottom: 72px;
+}
+.space_bottom_img{
+	margin-bottom: 33px;
+}
+.space_bottom_title{
+	margin-bottom: 26px;
+}
+.works{
+	height: 703px;
+	
+}
+.image_work{
+	width: 25%;
+	float: left;
+}
+.image_work img{
+	width: 100%;
+}
+.image_work:hover img{
+ 	animation-name: hover;
+ 	animation-duration: 1;
+	opacity: 0.5;
+}
+.team{
+	height: 783px;
+}
+.team ul{
+	width: 1170px;
+	float: left;
+	margin-top: 103px;
+}
+.team ul li{
+	float: left;
+	width: 270px;
+}
+.space_right_team{
+	margin-right: 30px;
+}
+
+.name_team{
+	margin-top: 30px;
+	margin-bottom: 12px;
+	font-size: 22px;
+	color: #2d3033;
+}
+.position_team{
+	font-size: 12px;
+	color: #e84545;
+}
+.desc{
+	margin-top: 29px;
+	font-size: 14px;
+	color: #6c7279;
+}
+.sosmed_icon{
+	margin-top: 30px;
+}
+.content_client{
+	width: 50%;
+	float: left;
+}
+.content_right{
+	background-color: #53354a;
+	width: 950px;
+	height: 501px;
+	
+}
