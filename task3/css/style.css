@@ -129,11 +129,13 @@ li a{
 	height: 703px;
 	
 }
+
 .image_work{
 	width: 25%;
 	float: left;
 }
 .image_work img{
+	height: 350px;
 	width: 100%;
 }
 .image_work:hover img{
@@ -175,6 +177,9 @@ li a{
 .sosmed_icon{
 	margin-top: 30px;
 }
+.client{
+	height: 500px;
+}
 .content_client{
 	width: 50%;
 	float: left;
@@ -182,6 +187,78 @@ li a{
 .content_right{
 	background-color: #53354a;
 	width: 950px;
-	height: 501px;
+	height: 500px;
 	
+}
+.download{
+	height: 338px;
+	padding-top: 100px;
+	text-align: center;
+}
+.download h2{
+	font-size: 28px;
+	color: #2d3033;
+	font-family: "Raleway Light";
+}
+.download h3{
+	font-size: 13px;
+	color: #2d3033;
+	font-family: "Raleway Light";
+	font-weight:900;
+	margin-top: 15px;
+}
+.button02{
+	margin-top: 40px;
+	background-color: #e84545;
+  	border: none;
+  	color: white;
+  	padding: 15px 53px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;	
+}
+.contact{
+	height: 250px;
+	background-color: #3a3e64;
+}
+.contact ul{
+	width: 1170px;
+	margin-top: 72px;
+}
+.contact ul li{
+	height: 93px;
+	color: white;
+	text-align: center;
+	float: left;
+	width: 370px;	
+}
+.contact h3{
+	font-size: 14px;
+	font-weight: 800;
+}
+.contact p{
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 2;
+}
+.space_right_contact{
+	margin-right: 30px;
+}
+.footer{
+	text-align: center;
+	height: 94px;
+	background-color: #313454;
+}
+.copyright{
+	padding-top:30px;
+	font-size: 14px;
+	color: #808080;
+}
+.white{
+	color: white;
+}
+.copyright img{
+	padding-top: 6px;
 }
