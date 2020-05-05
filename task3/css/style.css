@@ -50,7 +50,7 @@ ul {
 	margin: auto;
 }
 .banner{
-	background-image:url(images/banner.png);
+	background-image:url(../images/banner.png);
 	height: 750px;	
 }
 .header{
