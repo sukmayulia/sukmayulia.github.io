@@ -73,7 +73,9 @@ li a{
 	color: white;
 	margin-right: 30px;
 	font-size: 13px;
-	font-family: "Raleway Bold";
+	font-family: 'Raleway', sans-serif;
+    letter-spacing: 0;
+    font-weight: bold;
 }
 .banner_text{
 	margin-top: 156px;
@@ -86,7 +88,8 @@ li a{
 }
 .banner_text p{
 	font-size: 22px;
-	font-family: "Myriad Pro Regular";
+	font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 .button{
 	margin-top: 82px;
@@ -94,12 +97,12 @@ li a{
 	background-color: #e84545;
   	border: none;
   	color: white;
-  	padding: 17px 53px;
+    padding: 15px 50px;
+    border-radius: 5px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-  	font-size: 16px;
-  	cursor: pointer;	
+  	font-size: 16px;	
 }
 .features{
 	height: 693px;
@@ -112,6 +115,19 @@ li a{
 	height: 190px;
 	width: 370px;
 	text-align: center;
+}
+.title{
+	font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d3033;
+}
+.subtitle{
+	font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #6c7279;
 }
 .space_right{
 	margin-right: 30px;
@@ -129,19 +145,55 @@ li a{
 	height: 703px;
 	
 }
-
-.image_work{
-	width: 25%;
+.image_container{
+position: relative;
+width: 25%;
 	float: left;
 }
-.image_work img{
-	height: 350px;
-	width: 100%;
+
+.image{
+display: block;
+width:100%;
+height:auto;
 }
-.image_work:hover img{
- 	animation-name: hover;
- 	animation-duration: 1;
-	opacity: 0.5;
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #de4948;
+}
+
+.image_container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.work_desc{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: bold;
+	color:#fff;
+}
+.work_desc02{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	color:#fff;
 }
 .team{
 	height: 783px;
@@ -198,13 +250,14 @@ li a{
 .download h2{
 	font-size: 28px;
 	color: #2d3033;
-	font-family: "Raleway Light";
+	font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 .download h3{
 	font-size: 13px;
 	color: #2d3033;
-	font-family: "Raleway Light";
-	font-weight:900;
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
 	margin-top: 15px;
 }
 .button02{
@@ -216,8 +269,10 @@ li a{
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-  	font-size: 16px;
-  	cursor: pointer;	
+  	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+	border-radius: 5px;
 }
 .contact{
 	height: 250px;
@@ -240,8 +295,15 @@ li a{
 }
 .contact p{
 	font-size: 14px;
-	margin-top: 20px;
+	margin-top: 15px;
 	line-height: 2;
+    font-weight: 500;
+    opacity: 0.5;
+    color: #ffffff;
+}
+.contact img{
+	margin-top: 15px;
+	opacity: 0.5;
 }
 .space_right_contact{
 	margin-right: 30px;
