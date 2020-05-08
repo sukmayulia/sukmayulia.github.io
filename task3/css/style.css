@@ -155,6 +155,7 @@ li a{
 	display: block;
 	width:100%;
 	height:auto;
+
 }
 
 .overlay{
@@ -263,8 +264,8 @@ img {vertical-align: middle;}
 	font-size:36px;
 	line-height: 42px;
 	color: white;
-	padding-top: 115px;
-	padding-bottom: 30px;
+	
+	padding: 115px 30px 50px 30px;
 }
 .text_client .text02{
 	font-family: 'Raleway', sans-serif;
@@ -315,6 +316,7 @@ img {vertical-align: middle;}
 .client img{
 float:left;
 width:50%;
+object-fit: cover;
 }
 
 
