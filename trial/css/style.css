@@ -43,7 +43,7 @@ ul {
 
 /*start here*/
 .wrap{
-	width: 100%;
+	max-width: 1900px;
 	margin: auto;
 }
 .wrap_inner{
@@ -412,7 +412,7 @@ img {vertical-align: middle;}
 
 @media (max-width: 768px) {
 .wrap{
-		width: 100%;
+		
 }
 	.logo{
 		width: 50%;
