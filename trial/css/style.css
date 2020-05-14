@@ -56,13 +56,15 @@ ul {
 }
 .header{
 	height: 100px;
-	padding-top: 37px
+	padding-top: 37px;
+	border-bottom: 1px solid #505269;
 }
 .logo{
 	float: left;
+	padding-left: 20px;
 }
 .nav ul  {
-	width: 600px;
+	max-width: 100%;
 	float: right;
 	padding-top: 4px;
 }
@@ -77,6 +79,10 @@ ul {
 	font-family: 'Raleway', sans-serif;
     letter-spacing: 0;
     font-weight: bold;
+	max-width: 20%;
+}
+.nav  li .last{
+	margin-right: 0;
 }
 .banner_text{
 	margin-top: 156px;
@@ -94,16 +100,19 @@ ul {
 }
 .button{
 	margin-top: 82px;
-	margin-left: 486px;
+    margin-left: 486px;
 	background-color: #e84545;
   	border: none;
   	color: white;
     padding: 15px 50px;
     border-radius: 5px;
-  	text-align: center;
+  	
   	text-decoration: none;
   	display: inline-block;
   	font-size: 16px;	
+}
+.b-wrap{
+	text-align: center!important;
 }
 .features{
 	height: 693px;
@@ -146,7 +155,7 @@ ul {
 	margin-bottom: 26px;
 }
 .works{
-	max-height: 703px;
+	height: 703px;
 	max-width: 100%;
 }
 .image_container{
@@ -155,9 +164,9 @@ ul {
 	float: left;
 }
 
-.image{
+.image img{
 	display: block;
-	width: 100%;
+	max-width: 100%;
 	height:auto;
 
 }
@@ -202,7 +211,6 @@ ul {
 }
 .team{
 	height: 783px;
-
 }
 .team ul{
 	max-width: 1170px;
@@ -367,7 +375,7 @@ img {vertical-align: middle;}
 }
 .contact ul{
 	width: 100%;
-	padding-top: 72px;
+	margin-top: 72px;
 }
 .contact ul li{
 	height: 93px;
@@ -413,26 +421,76 @@ img {vertical-align: middle;}
 }
 
 @media (max-width: 768px) {
-.wrap{
-		
-}
+
 .wrap_inner{
-width: 100%;
+	width: 90%;
 }
-	.logo{
-		width: 50%;
+.logo{
+	width: 50%;
+	float: left;
 }
-	.nav{
-		width: 50%;
+.nav{
+	width: 50%;
+	float: right;
 }
-.features ul{
+.nav ul{
 		width: 100%;
 	}
-.works{
+.banner_text{
+	margin-top: 145px;
+	
+}
+.banner_text h1{
+	font-size: 44px;
+}
+.banner_text p{
+	font-size: 18px;
+	margin-top: 20px;
+}
+.pcOnly{
+	display: none;
+}
+	.button{
+		margin-left: 243px;
+	}
+.features{
+		margin-top: 100px;
+	}
+.features ul{
+	width: 100%;
+	padding-top: 0;
+	}
+.features li{
+	width: 50%;
+	margin-bottom: 10rem!important;
 
+}
+.space_right{
+		margin-right: 0;
+}
+.space_bottom{
+		margin-bottom: 0;
+}
+.f-wrap{
+		padding: 0 20px;
+}
+.works{
 	max-width: 100%;
 }
-	.image_container{
+.image_container{
 		width: 50%;
+}
+.team ul{
+	width: 100%;		
+}
+.team ul li{
+	width: 50%;	
+	text-align: center;
+}
+.space_right_team{
+	margin-right: 0;
+}
+	.t-wrap{
+		padding-bottom: 30px;
 	}
 }
